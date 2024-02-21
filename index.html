@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsive.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Entre ou<br>Cadastre-se</h1>
+            <img src="src/astronaut-suit-animate.svg" class="left-login-image" alt="">
+        </div>
+        <header>
+            <div class="right-login">
+                <div class="card login">
+                    <h1>LOGIN</h1>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon">
+                                <ion-icon name="mail"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </span>
+                            <input type="password" required>
+                            <label>Senha</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">
+                                Lembre de mim</label>
+                            <a href="#">Esqueceu sua senha?</a>
+                        </div>
+                        <button type="submit" class="btn">Entrar</button>
+                        <div class="login-register">
+                            <p>Ainda não possui uma conta? <a href="#" class="register-link">Cadastre-se</a></p>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="card register">
+                    <h1>CADASTRE-SE</h1>
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon">
+                                <ion-icon name="person"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                            <label>Nome de Usuário</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <ion-icon name="mail"></ion-icon>
+                            </span>
+                            <input type="text" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </span>
+                            <input type="password" required>
+                            <label>Senha</label>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">
+                                Eu li e concordo com os termos de uso</label>
+                        </div>
+                        <button type="submit" class="btn">Cadastrar</button>
+                        <div class="login-register">
+                            <p>Já possui uma conta? <a href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </header>
+    </div>
+    <script src="src/js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
